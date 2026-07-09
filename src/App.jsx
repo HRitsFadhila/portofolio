@@ -7,6 +7,7 @@ import { Testimonials } from "@/sections/Testimonials";
 import { Contact } from "@/sections/Contact";
 import { Footer } from "./layout/Footer";
 import { TechStack } from "./sections/TechStack";
+import { Certificates } from "./sections/Certificates";
 
 function App() {
   return (
@@ -16,9 +17,8 @@ function App() {
         <Hero />
         <TechStack />
         <About />
+        <Certificates />
         <Projects />
-        <Experience />
-        <Testimonials />
         <Contact />
       </main>
       <Footer />

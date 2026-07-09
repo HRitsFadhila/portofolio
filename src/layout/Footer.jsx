@@ -3,14 +3,13 @@ import { Github, Linkedin, Twitter, Heart } from "lucide-react";
 const socialLinks = [
   { icon: Github, href: "#", label: "GitHub" },
   { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Twitter, href: "#", label: "Twitter" },
 ];
 
 const footerLinks = [
-  { href: "#about", label: "About" },
+  { href: "#hero", label: "About" },
+  { href: "#certificates", label: "certificates" },
   { href: "#projects", label: "Projects" },
-  { href: "#experience", label: "Experience" },
-  { href: "#contact", label: "Contact" },
+  { href: "#contact", label:"contact"},
 ];
 
 export const Footer = () => {
@@ -23,10 +22,10 @@ export const Footer = () => {
           {/* Logo & Copyright */}
           <div className="text-center md:text-left">
             <a href="#" className="text-xl font-bold tracking-tight">
-              PM<span className="text-primary">.</span>
+              Harits <span className="text-primary">Fadhila</span>
             </a>
             <p className="text-sm text-muted-foreground mt-2">
-              © {currentYear} Pedro Machado. All rights reserved.
+              © {currentYear} Muhammad Harits Fadhila. All rights reserved.
             </p>
           </div>
 
