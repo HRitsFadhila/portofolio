@@ -18,7 +18,6 @@ function App() {
         <TechStack />
         <About />
         <Certificates />
-        <Projects />
         <Contact />
       </main>
       <Footer />

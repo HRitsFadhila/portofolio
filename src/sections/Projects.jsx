@@ -6,7 +6,7 @@ const projects = [
     description:
       "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
     image: "/projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
+    tags: ["GIN"],
     link: "#",
     github: "#",
   },
