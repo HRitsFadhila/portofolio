@@ -89,21 +89,33 @@ export const Hero = () => {
 
             {/* CTAs */}
             <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
-              <Button size="lg">
-                Contact Me <ArrowRight className="w-5 h-5" />
-              </Button>
-              <AnimatedBorderButton>
-                <Download className="w-5 h-5" />
-                Download CV
-              </AnimatedBorderButton>
+              <a
+                href="https://wa.me/6285251544470"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button size="lg">
+                  Contact Me <ArrowRight className="w-5 h-5" />
+                </Button>
+              </a>
+              <a
+                href="https://drive.google.com/file/d/1CBRWBSiko5x-_f2Dy17gwnQsGgKFF3M9/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AnimatedBorderButton>
+                  <Download className="w-5 h-5" />
+                  Download CV
+                </AnimatedBorderButton>
+              </a>
             </div>
 
             {/* Social Links */}
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
-                { icon: Github, href: "#" },
-                { icon: Linkedin, href: "#" },
+                { icon: Github, href: "https://github.com/HRitsFadhila/" },
+                { icon: Linkedin, href: "linkedin.com/in/muhammad-harits-fadhila-271a35314" },
               ].map((social, idx) => (
                 <a
                   key={idx}

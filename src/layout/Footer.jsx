@@ -1,14 +1,14 @@
 import { Github, Linkedin, Twitter, Heart } from "lucide-react";
 
 const socialLinks = [
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
+  { icon: Github, href: "https://github.com/HRitsFadhila/", label: "GitHub" },
+  { icon: Linkedin, href: "linkedin.com/in/muhammad-harits-fadhila-271a35314", label: "LinkedIn" },
 ];
 
 const footerLinks = [
   { href: "#hero", label: "About" },
-  { href: "#certificates", label: "certificates" },
   { href: "#projects", label: "Projects" },
+  { href: "#certificates", label: "certificates" },
   { href: "#contact", label:"contact"},
 ];
 
