@@ -7,7 +7,7 @@ const projects = [
       "A RESTful E-Wallet backend built with Golang, Gin, GORM, and MySQL. Features JWT authentication, role-based authorization, account management, balance operations, fund transfers, transaction history, and secure password management using UUID and bcrypt.",
     image: "/projects/backend-golang-ewallet-api.png",
     tags: ["Golang","GIN", "MySQL"],
-    link: "#",
+    link: "https://github.com/HRitsFadhila/golang-api-wallet",
     github: "https://github.com/HRitsFadhila/golang-api-wallet",
   },
 ];
